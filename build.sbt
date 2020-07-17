@@ -25,8 +25,8 @@ lazy val `sd-util` = project
       "com.typesafe"  % "config"        % "1.4.0",
       "commons-codec" % "commons-codec" % "1.13",
     ) ++ Seq(
-      "org.specs2"    %% "specs2-core"  % "4.8.1",
-      "com.github.scopt" %% "scopt" % "4.0.0-RC2",
+      "org.specs2"    %% "specs2-core"  % "4.10.0",
+      "com.github.scopt" %% "scopt" % "4.0.0-RC3",
     ).map(_ % Test),
 
     // Adds a `src/main/scala-2.13+` source directory for Scala 2.13 and newer
