@@ -1,8 +1,8 @@
 lazy val coreSettings = Seq(
   organization := "com.sandinh",
   version := "1.2.0",
-  scalaVersion := "2.13.1",
-  crossScalaVersions := Seq("2.11.12", "2.12.10", "2.13.1"),
+  scalaVersion := "2.13.3",
+  crossScalaVersions := Seq("2.11.12", "2.12.12", "2.13.3"),
 
   scalacOptions ++= Seq("-encoding", "UTF-8", "-deprecation", "-feature"),
   scalacOptions ++= (CrossVersion.scalaApiVersion(scalaVersion.value) match {
